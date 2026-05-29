@@ -1,124 +1,96 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ideal Graphic</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ideal Graphic</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
 <header>
-  <nav>
+  <div class="nav">
     <img src="img/logo.png" class="logo">
 
-    <div class="nav-links">
+    <div class="menu">
       <a href="#servizi">Servizi</a>
-      <a href="#azienda">Azienda</a>
-      <a href="#gallery">Lavori</a>
+      <a href="#chi">Chi Siamo</a>
+      <a href="#lavori">Lavori</a>
       <a href="#contatti">Contatti</a>
     </div>
-  </nav>
+  </div>
 </header>
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-content">
-    <h1>Comunicazione Visiva Professionale</h1>
-    <p>Stampa, insegne, wrapping auto e allestimenti su misura</p>
+  <div class="hero-box">
+    <h1>Comunicazione Visiva Moderna</h1>
+    <p>Stampa, insegne e wrapping auto con qualità professionale</p>
     <a href="#contatti" class="btn">Richiedi Preventivo</a>
   </div>
 </section>
 
 <!-- SERVIZI -->
 <section id="servizi">
+  <h2>Servizi</h2>
 
-  <h2 class="section-title">I Nostri Servizi</h2>
+  <div class="grid">
 
-  <div class="services-grid">
-
-    <!-- STAMPA -->
     <div class="card">
-      <div class="slider">
-        <img src="img/stampa1.jpg">
-        <img src="img/stampa2.jpg">
-        <img src="img/stampa3.jpg">
-      </div>
-      <div class="card-content">
-        <h3>Stampa Digitale</h3>
-      </div>
+      <img src="img/stampa1.jpg">
+      <h3>Stampa Digitale</h3>
     </div>
 
-    <!-- INSEGNE -->
     <div class="card">
-      <div class="slider">
-        <img src="img/insegne1.jpg">
-        <img src="img/insegne2.jpg">
-        <img src="img/insegne3.jpg">
-      </div>
-      <div class="card-content">
-        <h3>Insegne</h3>
-      </div>
+      <img src="img/insegne1.jpg">
+      <h3>Insegne</h3>
     </div>
 
-    <!-- ALLESTIMENTI -->
     <div class="card">
-      <div class="slider">
-        <img src="img/allestimenti1.jpg">
-        <img src="img/allestimenti2.jpg">
-        <img src="img/allestimenti3.jpg">
-      </div>
-      <div class="card-content">
-        <h3>Allestimenti</h3>
-      </div>
+      <img src="img/allestimenti1.jpg">
+      <h3>Allestimenti</h3>
     </div>
 
-    <!-- WRAP -->
     <div class="card">
-      <div class="slider">
-        <img src="img/wrap1.jpg">
-        <img src="img/wrap2.jpg">
-        <img src="img/wrap3.jpg">
-      </div>
-      <div class="card-content">
-        <h3>Wrapping Auto</h3>
-      </div>
+      <img src="img/wrap1.jpg">
+      <h3>Wrapping Auto</h3>
     </div>
 
   </div>
 </section>
 
-<!-- AZIENDA -->
-<section id="azienda">
+<!-- CHI SIAMO -->
+<section id="chi" class="about">
 
-  <h2 class="section-title">Chi Siamo</h2>
+  <div class="about-box">
 
-  <div class="about-container">
+    <img src="img/azienda.jpg">
 
-    <img src="img/hero.jpg">
-
-    <div class="about-text">
-      <h2>Ideal Graphic</h2>
-      <p>Comunicazione visiva, stampa e personalizzazione veicoli.</p>
+    <div>
+      <h2>Chi Siamo</h2>
+      <p>
+        Ideal Graphic realizza soluzioni di comunicazione visiva,
+        stampa e personalizzazione veicoli con tecnologia avanzata.
+      </p>
     </div>
 
   </div>
+
 </section>
 
-<!-- GALLERY -->
-<section id="gallery">
+<!-- LAVORI -->
+<section id="lavori">
+  <h2>I Nostri Lavori</h2>
 
-  <h2 class="section-title">I Nostri Lavori</h2>
-
-  <div class="gallery-grid">
+  <div class="gallery">
 
     <img src="img/gallery1.jpg">
     <img src="img/gallery2.jpg">
     <img src="img/gallery3.jpg">
     <img src="img/gallery4.jpg">
-    <img src="img/gallery5.jpg">
-    <img src="img/gallery6.jpg">
 
   </div>
 </section>
@@ -126,13 +98,12 @@
 <!-- CONTATTI -->
 <section id="contatti" class="contact">
 
-  <h2>Contattaci</h2>
-
-  <p>Via Brodolini 9/a – Passignano sul Trasimeno</p>
+  <h2>Contatti</h2>
+  <p>Via Brodolini 9/a - Passignano</p>
   <p>075 8296223</p>
-  <p>info@idealgraphic.it</p><br>
+  <p>info@idealgraphic.it</p>
 
-  <a href="mailto:info@idealgraphic.it" class="btn">Invia Email</a>
+  <a class="btn" href="mailto:info@idealgraphic.it">Scrivici</a>
 
 </section>
 
