@@ -6,119 +6,123 @@
   <title>Ideal Graphic</title>
 
   <link rel="stylesheet" href="style.css">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
+<!-- NAVBAR -->
 <header>
-  <div class="container nav">
+  <nav>
     <img src="img/logo.png" class="logo">
 
-    <nav>
+    <div class="nav-links">
       <a href="#servizi">Servizi</a>
       <a href="#azienda">Azienda</a>
       <a href="#gallery">Lavori</a>
       <a href="#contatti">Contatti</a>
-    </nav>
-  </div>
+    </div>
+  </nav>
 </header>
 
+<!-- HERO -->
 <section class="hero">
-  <div class="overlay"></div>
-
   <div class="hero-content">
-    <h1>Stampa Digitale & Comunicazione Visiva</h1>
-
-    <p>
-      Allestimenti, serigrafia, insegne e stampa professionale
-      per aziende e attività.
-    </p>
-
-    <a href="#contatti" class="btn">
-      Richiedi un Preventivo
-    </a>
+    <h1>Comunicazione Visiva Professionale</h1>
+    <p>Stampa digitale, insegne, serigrafia e allestimenti su misura</p>
+    <a href="#contatti" class="btn">Richiedi Preventivo</a>
   </div>
 </section>
 
-<section id="servizi" class="services">
+<!-- SERVIZI -->
+<section id="servizi">
 
-  <h2>I Nostri Servizi</h2>
+  <h2 class="section-title">I Nostri Servizi</h2>
 
-  <div class="cards">
+  <div class="services-grid">
 
     <div class="card">
       <img src="img/stampa.jpg">
-      <h3>Stampa Digitale</h3>
-      <p>Grande e piccolo formato ad alta qualità.</p>
+      <div class="card-content">
+        <h3>Stampa Digitale</h3>
+        <p>Stampa di grande e piccolo formato ad alta qualità.</p>
+      </div>
     </div>
 
     <div class="card">
       <img src="img/insegne.jpg">
-      <h3>Insegne</h3>
-      <p>Realizzazione insegne personalizzate e luminose.</p>
+      <div class="card-content">
+        <h3>Insegne</h3>
+        <p>Insegne luminose e personalizzate per negozi e aziende.</p>
+      </div>
     </div>
 
     <div class="card">
       <img src="img/allestimenti.jpg">
-      <h3>Allestimenti</h3>
-      <p>Soluzioni per fiere, eventi e vetrine.</p>
+      <div class="card-content">
+        <h3>Allestimenti</h3>
+        <p>Stand fieristici, vetrine e spazi commerciali.</p>
+      </div>
     </div>
 
   </div>
 </section>
 
+<!-- AZIENDA -->
 <section id="azienda" class="about">
 
-  <div class="about-text">
-    <h2>Chi Siamo</h2>
+  <h2 class="section-title">Chi Siamo</h2>
 
-    <p>
-      Ideal Graphic opera nel settore della comunicazione visiva
-      e della stampa professionale con esperienza e tecnologie moderne.
-    </p>
+  <div class="about-container">
 
-    <p>
-      Realizziamo progetti personalizzati per aziende,
-      negozi ed eventi.
-    </p>
+    <img src="img/hero.jpg">
+
+    <div class="about-text">
+      <h2>Ideal Graphic</h2>
+      <p>
+        Siamo specializzati nella comunicazione visiva e nella stampa professionale.
+        Realizziamo soluzioni personalizzate per aziende, negozi ed eventi.
+      </p>
+      <p>
+        Dalla progettazione alla realizzazione finale, seguiamo ogni dettaglio
+        per garantire un risultato di alta qualità.
+      </p>
+    </div>
+
   </div>
-
-  <img src="img/hero.jpg">
-
 </section>
 
-<section id="gallery" class="gallery">
+<!-- GALLERY -->
+<section id="gallery">
 
-  <h2>Alcuni Lavori</h2>
+  <h2 class="section-title">I Nostri Lavori</h2>
 
   <div class="gallery-grid">
+
+    <img src="img/insegna1.jpg">
     <img src="img/stampa.jpg">
-    <img src="img/insegne.jpg">
     <img src="img/allestimenti.jpg">
     <img src="img/hero.jpg">
+
   </div>
 
 </section>
 
+<!-- CONTATTI -->
 <section id="contatti" class="contact">
 
-  <h2>Contatti</h2>
+  <h2>Contattaci</h2>
 
   <p>Via Brodolini 9/a – Passignano sul Trasimeno (PG)</p>
+  <p>075 8296223</p>
+  <p>info@idealgraphic.it</p>
 
-  <p>Tel: 075 8296223</p>
+  <br>
 
-  <p>Email: info@idealgraphic.it</p>
-
-  <a class="btn" href="mailto:info@idealgraphic.it">
-    Contattaci
-  </a>
+  <a href="mailto:info@idealgraphic.it" class="btn">Invia Email</a>
 
 </section>
 
+<!-- FOOTER -->
 <footer>
   <p>© 2026 Ideal Graphic</p>
 </footer>
